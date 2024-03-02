@@ -30,7 +30,7 @@ for (uint64_t i = value + 1; ; i++) {
 		if (is_prime == true)
 		return i;
 }
-
+}
 uint64_t sumPrime(uint64_t hbound) {
 uint64_t sum = 0;
 	for (uint64_t i = 2; i <= hbound ; i++) {
