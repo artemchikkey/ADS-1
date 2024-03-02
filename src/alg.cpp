@@ -13,12 +13,12 @@ for (int i = 2; i * i <= value; i++) {
 }
 
 uint64_t nPrime(uint64_t n) {
- int c = 0;
+int k = 0;
 	for (uint64_t i = 2; ; i++) {
 		bool is_prime = checkPrime(i);
 		if (is_prime == true) {
-			c++;
-			if (c == n);
+			k++;
+			if (k == n);
 				return i;
 		}
 	}
