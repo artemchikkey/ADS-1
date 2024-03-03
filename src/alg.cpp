@@ -18,8 +18,9 @@ int k = 0;
 		bool is_prime = checkPrime(i);
 		if (is_prime == true) {
 			k++;
-			if (k == n);
+			if (k == n){
 				return i;
+			}
 		}
 	}
 }
