@@ -6,7 +6,7 @@
 bool checkPrime(uint64_t value) {
     for (int i = 2; i * i <= value; i++) {
       if (value % i == 0) {
-	return false;
+return false;
 }
 }
 return true;
@@ -17,10 +17,10 @@ int k = 0;
 for (uint64_t i = 2; ; i++) {
 bool is_prime = checkPrime(i);
 if (is_prime == true) {
-	k++;
-	if (k == n) {
-		return i;
-	}
+k++;
+if (k == n) {
+	return i;
+}
 }
 }
 }
@@ -37,7 +37,7 @@ uint64_t sum = 0;
 for (uint64_t i = 2; i <= hbound ; i++) {
 bool is_prime = checkPrime(i);
 if (is_prime == true) {
-	sum = sum + i;
+sum = sum + i;
     }
 }
 return sum;}
