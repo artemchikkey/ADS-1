@@ -19,7 +19,7 @@ bool is_prime = checkPrime(i);
 if (is_prime == true) {
 k++;
 if (k == n) {
-	return i;
+return i;
 }
 }
 }
